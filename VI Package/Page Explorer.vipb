@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-10-15 10:47:23" Creator="ITS ME ASHIQ" Comments="" ID="4a705713881ed6fe0f4c5a1f312ddf5c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-10-15 10:54:26" Creator="ITS ME ASHIQ" Comments="" ID="f5e986d247b1b419206dc40dc01da35b">
   <Library_General_Settings>
     <Package_File_Name>Page_Explorer</Package_File_Name>
-    <Library_Version>1.0.0.1</Library_Version>
+    <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -214,7 +214,7 @@ Until then, let's have some quality coding...</Description>
         <Path>Example Tool Testing VIs</Path>
       </Place_Folder_Contents>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
