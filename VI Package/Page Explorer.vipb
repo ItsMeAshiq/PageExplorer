@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-10-15 10:26:30" Creator="ITS ME ASHIQ" Comments="" ID="9e1b628700be0a1e059a166d28ccd7f4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-10-15 10:47:23" Creator="ITS ME ASHIQ" Comments="" ID="4a705713881ed6fe0f4c5a1f312ddf5c">
   <Library_General_Settings>
     <Package_File_Name>Page_Explorer</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
@@ -45,14 +45,14 @@ And to mention, this tool works well with &lt;b&gt;multiple monitor setup&lt;/b&
 
 
 Requires LabVIEW to be Restarted for AutoLaunch feature to work.
-And it can be launched from &lt;b&gt;Tools &gt;&gt; Page Explorer&lt;/b&gt; or &lt;b&gt;Right click menu&lt;/b&gt; on Tab controls or Multiframe Structures.
+And it can be launched from &lt;b&gt;Tools &gt;&gt; Page Explorer&lt;/b&gt; or &lt;b&gt;Right click menu&lt;/b&gt; on Tab controls or MultiFrame Structures.
 
 -------------------------------------
 More to come!
 Until then, let's have some quality coding...</Description>
       <Copyright/>
       <Packager>Mohammed Ashiq S</Packager>
-      <URL/>
+      <URL>https://github.com/ItsMeAshiq/PageExplorer</URL>
       <Release_Notes>Initial Release</Release_Notes>
     </Description>
     <Destinations>
