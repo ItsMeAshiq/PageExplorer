@@ -15,7 +15,7 @@ Additionally user can pin it to any custom position if needed.
 
 And to mention, this tool works well with <b>multiple monitor setup</b> too.
 
-Requires LabVIEW to be Restarted for AutoLaunch feature to work.
+
 And it can be launched from <b>Tools >> Page Explorer</b> or <b>Right click menu</b> on Tab controls or MultiFrame Structures.
 
 
