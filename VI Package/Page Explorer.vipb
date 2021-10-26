@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-10-26 09:57:43" Creator="ITS ME ASHIQ" Comments="" ID="5373e0c1d15e998b4394e595a4989115">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-10-26 10:26:16" Creator="ITS ME ASHIQ" Comments="" ID="cac41758b71fc2a32b0a8d52cf98bc62">
   <Library_General_Settings>
     <Package_File_Name>Page_Explorer</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -45,7 +45,7 @@ And to mention, this tool works well with &lt;b&gt;multiple monitor setup&lt;/b&
 
 
 And it can be launched from &lt;b&gt;Tools &gt;&gt; Page Explorer&lt;/b&gt; or &lt;b&gt;Right click menu&lt;/b&gt; on Tab controls or MultiFrame Structures.
-Requires LabVIEW to be Restarted for AutoLaunch feature to work.
+
 -------------------------------------
 More to come!
 Until then, let's have some quality coding...</Description>
