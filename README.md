@@ -19,4 +19,4 @@ Requires LabVIEW to be Restarted for AutoLaunch feature to work.
 And it can be launched from <b>Tools >> Page Explorer</b> or <b>Right click menu</b> on Tab controls or MultiFrame Structures.
 
 
-> ### _**Source Code will be released soon.**_
+> ### _**Currently this tool is in development phase.**_
