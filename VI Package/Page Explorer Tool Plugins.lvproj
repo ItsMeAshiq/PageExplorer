@@ -12,11 +12,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="VIs for testing the tool" Type="Folder">
-			<Item Name="Temperature Monitoring.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/Temperature Monitoring.vi"/>
+			<Item Name="BMark_MainWindow.vi" Type="VI" URL="/&lt;resource&gt;/dialog/BookmarkManager/managers/Default/BMark_MainWindow.vi"/>
+			<Item Name="Case Structure - Selector Data Types.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Structures/Case Structure/Case Structure - Selector Data Types.vi"/>
 			<Item Name="Programmatically Manipulate a Tab Control.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Controls and Indicators/Containers/Programmatically Manipulate a Tab Control.vi"/>
 			<Item Name="Queued Message Handler Fundamentals.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Queued Message Handler/Queued Message Handler Fundamentals.vi"/>
-			<Item Name="Case Structure - Selector Data Types.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Structures/Case Structure/Case Structure - Selector Data Types.vi"/>
-			<Item Name="BMark_MainWindow.vi" Type="VI" URL="/&lt;resource&gt;/dialog/BookmarkManager/managers/Default/BMark_MainWindow.vi"/>
+			<Item Name="Temperature Monitoring.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/Temperature Monitoring.vi"/>
 		</Item>
 		<Item Name="VI Package" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -25,7 +25,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
-				<Item Name="LVTextColorsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextColorsTypeDef.ctl"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -78,18 +77,10 @@
 				<Item Name="ex_SetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetAllExpressAttribs.vi"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="LVTextColorsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextColorsTypeDef.ctl"/>
 			</Item>
-			<Item Name="_mxLvGetProviderAppRef.vi" Type="VI" URL="../../../../../NI GProvider Tool/viewpoint_tsvn_toolkit-1.8.3.43/viewpoint_tsvn_toolkit-1.8.3.43/File Group 0/resource/Framework/Providers/Viewpoint/TSVN Toolkit/_mxLvGetProviderAppRef.vi"/>
-			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Checkmark Status.ctl"/>
-			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Enabled Menu Item Status.ctl"/>
 			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
-			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
-			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
-			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
-			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
 			<Item Name="LV Config Write Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Boolean.vi"/>
 			<Item Name="LV Config Write Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Color.vi"/>
 			<Item Name="LV Config Write Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Numeric (I32).vi"/>
@@ -97,16 +88,12 @@
 			<Item Name="LV Config Write String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write String.vi"/>
 			<Item Name="LV Config Write.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="mxLvDebugDisplayCaller.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDebugDisplayCaller.vi"/>
-			<Item Name="mxLvErrorHandler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvErrorHandler.vi"/>
-			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
-			<Item Name="Position In Menu.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Position In Menu.ctl"/>
-			<Item Name="Relative Position.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Relative Position.ctl"/>
-			<Item Name="Shortcut Menu Item Definition.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Shortcut Menu Item Definition.ctl"/>
-			<Item Name="Transaction Control.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Transaction Control.ctl"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Case Structure - Enum Options.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Structures/Case Structure/support/Case Structure - Enum Options.ctl"/>
+			<Item Name="QMH Fundamentals - Message Cluster.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Queued Message Handler/support/QMH Fundamentals - Message Cluster.ctl"/>
 			<Item Name="Temp Monitor UI Data.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/controls/Temp Monitor UI Data.ctl"/>
 			<Item Name="Temp Monitor User Event - Stop.lvlib" Type="Library" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/User Event - Stop/Temp Monitor User Event - Stop.lvlib"/>
 			<Item Name="Create Notifier for Simulated Data.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Create Notifier for Simulated Data.vi"/>
@@ -116,9 +103,20 @@
 			<Item Name="Simulate Temperature Acquisition.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Simulate Temperature Acquisition.vi"/>
 			<Item Name="Send Data Notification.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Send Data Notification.vi"/>
 			<Item Name="Temp Monitor Set Enable State on Multiple Controls.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Temp Monitor Set Enable State on Multiple Controls.vi"/>
-			<Item Name="QMH Fundamentals - Message Cluster.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Queued Message Handler/support/QMH Fundamentals - Message Cluster.ctl"/>
-			<Item Name="Case Structure - Enum Options.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Structures/Case Structure/support/Case Structure - Enum Options.ctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
+			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
+			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
+			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
+			<Item Name="Shortcut Menu Item Definition.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Shortcut Menu Item Definition.ctl"/>
+			<Item Name="Transaction Control.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Transaction Control.ctl"/>
+			<Item Name="Position In Menu.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Position In Menu.ctl"/>
+			<Item Name="Relative Position.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Relative Position.ctl"/>
+			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Checkmark Status.ctl"/>
+			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Enabled Menu Item Status.ctl"/>
+			<Item Name="Page Explorer.ctl" Type="VI" URL="../Right Click Menu/Page Explorer RC Menu.llb/Page Explorer.ctl"/>
+			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

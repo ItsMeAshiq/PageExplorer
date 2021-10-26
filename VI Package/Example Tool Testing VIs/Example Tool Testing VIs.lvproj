@@ -12,8 +12,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Example Tool Testing VIs" Type="Folder">
 			<Item Name="Animation Demo.vi" Type="VI" URL="../Animation Demo.vi"/>
+			<Item Name="BMark_MainWindow.vi" Type="VI" URL="/&lt;resource&gt;/dialog/BookmarkManager/managers/Default/BMark_MainWindow.vi"/>
+			<Item Name="Case Structure - Selector Data Types.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Structures/Case Structure/Case Structure - Selector Data Types.vi"/>
 			<Item Name="Pocket UI.vi" Type="VI" URL="../Example Touch Panel Type Application/Pocket UI.vi"/>
+			<Item Name="Programmatically Manipulate a Tab Control.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Controls and Indicators/Containers/Programmatically Manipulate a Tab Control.vi"/>
+			<Item Name="Queued Message Handler Fundamentals.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Queued Message Handler/Queued Message Handler Fundamentals.vi"/>
 			<Item Name="Tab Control Password 2012 NIVerified.vi" Type="VI" URL="../Tab Control Password 2012 NIVerified.vi"/>
+			<Item Name="Temperature Monitoring.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/Temperature Monitoring.vi"/>
 			<Item Name="Ultimate Tab Control.vi" Type="VI" URL="../Ultimate Tab Control.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -27,6 +32,7 @@
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="DU64_U32AddWithOverflow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32AddWithOverflow.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -49,6 +55,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVTextColorsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextColorsTypeDef.ctl"/>
 				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
 				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -72,8 +79,19 @@
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Case Structure - Enum Options.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Structures/Case Structure/support/Case Structure - Enum Options.ctl"/>
+			<Item Name="Create Notifier for Simulated Data.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Create Notifier for Simulated Data.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Move.vi" Type="VI" URL="../Example Touch Panel Type Application/Move.vi"/>
+			<Item Name="QMH Fundamentals - Message Cluster.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Queued Message Handler/support/QMH Fundamentals - Message Cluster.ctl"/>
+			<Item Name="Send Data Notification.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Send Data Notification.vi"/>
+			<Item Name="Set Alarm Colors and Get Alarm Text.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Set Alarm Colors and Get Alarm Text.vi"/>
+			<Item Name="Simulate Temperature Acquisition.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Simulate Temperature Acquisition.vi"/>
+			<Item Name="Simulated Data.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/controls/Simulated Data.ctl"/>
+			<Item Name="Temp Monitor Message Queue.lvlib" Type="Library" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Message Queue/Temp Monitor Message Queue.lvlib"/>
+			<Item Name="Temp Monitor Set Enable State on Multiple Controls.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/Temp Monitor Set Enable State on Multiple Controls.vi"/>
+			<Item Name="Temp Monitor UI Data.ctl" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/controls/Temp Monitor UI Data.ctl"/>
+			<Item Name="Temp Monitor User Event - Stop.lvlib" Type="Library" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Industry Applications/Temperature Monitoring/support/User Event - Stop/Temp Monitor User Event - Stop.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
