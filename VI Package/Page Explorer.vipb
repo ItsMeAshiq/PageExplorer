@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-10-26 22:22:28" Creator="ITS ME ASHIQ" Comments="" ID="929fa906d802f7619110ed6339bdccbc">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-11-01 00:44:56" Creator="ITS ME ASHIQ" Comments="" ID="54447f9823631b28e0100ec60a518dce">
   <Library_General_Settings>
     <Package_File_Name>Page_Explorer</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -52,7 +52,9 @@ Until then, let's have some quality coding...</Description>
       <Copyright/>
       <Packager>Mohammed Ashiq S</Packager>
       <URL>https://github.com/ItsMeAshiq/PageExplorer</URL>
-      <Release_Notes>Initial Release</Release_Notes>
+      <Release_Notes>-Performance Improvements
+-Bug Fix: Tool window will not open for Multi Frame Structures inside a Flat Sequence
+-Bug Fix: When scrolling on overlapped Tab Controls, Tab Control at the bottom is scrolled instead of the Tab Control at Top Level/Front</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -248,6 +250,9 @@ Until then, let's have some quality coding...</Description>
       <Exclusions>
         <Path>Pre-Uninstall Custom Action.vi</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>icon.png</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -316,6 +321,7 @@ Until then, let's have some quality coding...</Description>
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
