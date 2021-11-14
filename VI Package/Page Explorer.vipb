@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-11-01 01:02:47" Creator="ITS ME ASHIQ" Comments="" ID="1184175a1aef5d9c322eca395e7dc8a8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-10 18:03:59" Modified_Date="2021-11-14 21:20:19" Creator="ITS ME ASHIQ" Comments="" ID="e61cfb7cfbf920a1e41f289fd9580848">
   <Library_General_Settings>
     <Package_File_Name>Page_Explorer</Package_File_Name>
     <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>.</Library_Output_Folder>
+    <Library_Output_Folder>Packages</Library_Output_Folder>
     <Company_Name>Mohammed Ashiq S</Company_Name>
     <Library_Summary/>
     <Library_License>MIT</Library_License>
@@ -237,9 +237,6 @@ Until then, let's have some quality coding...</Description>
       </Namespace_Overrides>
       <Exclusions>
         <Path>Page Explorer Tool Plugins.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>page_explorer-1.0.0.1.vip</Path>
       </Exclusions>
       <Exclusions>
         <Path>icon.vi</Path>
